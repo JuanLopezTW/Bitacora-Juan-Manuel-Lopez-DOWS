@@ -1,0 +1,8 @@
+package edu.dosw.bitacora.DOSW_Bitacora_JuanLopez.semana3.Estructurales.Ejercicio11;
+
+public class CheapestRoute implements RouteStrategy {
+    @Override
+    public void calculateRoute() {
+        System.out.println("Calculando la ruta más económica...");
+    }
+}
