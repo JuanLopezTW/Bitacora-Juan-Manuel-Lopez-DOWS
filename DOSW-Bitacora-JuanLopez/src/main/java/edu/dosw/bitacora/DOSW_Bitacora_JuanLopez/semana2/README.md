@@ -99,31 +99,3 @@ Idenficiacion de imcumplimiento el solid ya que aun cometo errores de este tipo 
 
 
 
-## Anotaciones 
-
-Resumen solid + ejemplo
-
-S – Single Responsibility (Responsabilidad Única)
-
-Cada clase hace una sola cosa. 
-Como un chef que solo cocina, no cobra ni limpia mesas.
-
-O – Open/Closed (Abierto/Cerrado)
-
-El código está abierto para agregar cosas nuevas pero cerrado para modificar lo que ya funciona. 
-Como un enchufe, puedes conectar cualquier aparato nuevo sin rediseñar la pared.
-
-L – Liskov Substitution (Sustitución de Liskov)
-
-Una clase hija debe poder reemplazar a la padre sin romper nada. 
-Como cualquier marca de pila AA, todas funcionan en el mismo control remoto sin importar el fabricante.
-
-I – Interface Segregation (Segregación de Interfaces)
-
-No obligues a una clase a implementar cosas que no necesita. 
-Como un contrato de trabajo, al carpintero no le pones en el contrato obligaciones de contador.
-
-D – Dependency Inversion (Inversión de Dependencias)
-
-Las clases deben depender de interfaces, no de clases concretas. 
-Como un control remoto que funciona con cualquier TV porque depende del estándar infrarrojo, no de una marca específica.
