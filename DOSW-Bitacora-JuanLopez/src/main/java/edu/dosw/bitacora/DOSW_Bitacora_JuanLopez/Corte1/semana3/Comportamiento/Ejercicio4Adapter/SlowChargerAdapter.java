@@ -1,0 +1,19 @@
+package edu.dosw.bitacora.DOSW_Bitacora_JuanLopez.Corte1.semana3.Comportamiento.Ejercicio4Adapter;
+
+public class SlowChargerAdapter implements FuelService {
+    private SlowElectricCharger charger;
+
+    public SlowChargerAdapter(SlowElectricCharger charger) {
+        this.charger = charger;
+    }
+
+    @Override
+    public void supply(int liters) {
+        double kWh = convertLitersToKWh(liters);
+        charger.slowCharge(kWh);
+    }
+
+    private double convertLitersToKWh(int liters) {
+        return liters * 7.0;
+    }
+}
