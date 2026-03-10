@@ -7,5 +7,12 @@ class Grade {
     double score;
     LocalDate date;
     boolean passed;
+
+    Grade(String subject, double score, LocalDate date, boolean passed) {
+        this.subject = subject;
+        this.score = score;
+        this.date = date;
+        this.passed = passed;
+    }
 }
 

@@ -99,6 +99,7 @@ public class AnalisisRendimiento {
     }
 
     public LinkedHashMap pipalinea(){
+        //Ordenar por lista filtra por notas pasadas agrupar por materia y promedio de mayor a menor
         LinkedHashMap pipe = students.stream()
                 .filter(s -> s.team.equals("NARANJA"))
                 .flatMap(s -> s.grades.stream())
